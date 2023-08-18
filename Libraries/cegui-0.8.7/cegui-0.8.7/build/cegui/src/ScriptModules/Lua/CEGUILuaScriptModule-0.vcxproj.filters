@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\src\ScriptModules\Lua\Functor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\src\ScriptModules\Lua\ScriptModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\src\ScriptModules\Lua\lua_CEGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\src\ScriptModules\Lua\required.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ScriptModules\Lua\Functor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ScriptModules\Lua\ScriptModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\src\ScriptModules\Lua\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{30AA4EDD-8569-3982-90F1-C59D0B3A1236}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{1F7EB0EE-3A13-3AEF-B708-D3EDB5BFCC7E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

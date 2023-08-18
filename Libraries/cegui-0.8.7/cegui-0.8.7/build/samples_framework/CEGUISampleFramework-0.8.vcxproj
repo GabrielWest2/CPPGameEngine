@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{34936D33-2A97-3848-A4E7-6CAEE159DBFF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>CEGUISampleFramework-0.8</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CEGUISampleFramework-0.8.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CEGUISampleFramework-0.8_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CEGUISampleFramework-0.8.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CEGUISampleFramework-0.8</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CEGUISampleFramework-0.8.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CEGUISampleFramework-0.8</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CEGUISampleFramework-0.8.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CEGUISampleFramework-0.8</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\glfw_d.lib;..\lib\CEGUIOpenGLRenderer-0_d.lib;..\lib\CEGUIBase-0_d.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\freetype_d.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\pcre_d.lib;winmm.lib;DbgHelp.lib;opengl32.lib;glu32.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\glew_d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build/lib/CEGUISampleFramework-0.8_d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build/bin/CEGUISampleFramework-0.8_d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\glfw.lib;..\lib\CEGUIOpenGLRenderer-0.lib;..\lib\CEGUIBase-0.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\freetype.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\pcre.lib;winmm.lib;opengl32.lib;glu32.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\glew.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build/lib/CEGUISampleFramework-0.8.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build/bin/CEGUISampleFramework-0.8.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\glfw.lib;..\lib\CEGUIOpenGLRenderer-0.lib;..\lib\CEGUIBase-0.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\freetype.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\pcre.lib;winmm.lib;opengl32.lib;glu32.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\glew.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build/lib/CEGUISampleFramework-0.8.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build/bin/CEGUISampleFramework-0.8.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;GLFW_DLL;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cegui\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples\common\include;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\glfw.lib;..\lib\CEGUIOpenGLRenderer-0.lib;..\lib\CEGUIBase-0.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\freetype.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\pcre.lib;winmm.lib;opengl32.lib;glu32.lib;C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\dependencies\lib\dynamic\glew.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build/lib/CEGUISampleFramework-0.8.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build/bin/CEGUISampleFramework-0.8.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/samples_framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7 -BC:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build --check-stamp-file C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build/samples_framework/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cmake\templates\VisualStudioUserFile.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples_framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/samples_framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7 -BC:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build --check-stamp-file C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build/samples_framework/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cmake\templates\VisualStudioUserFile.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples_framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/samples_framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7 -BC:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build --check-stamp-file C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build/samples_framework/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cmake\templates\VisualStudioUserFile.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples_framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/samples_framework/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7 -BC:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build --check-stamp-file C:/Users/Gabe/source/repos/CPPGameEngine/Libraries/cegui-0.8.7/cegui-0.8.7/build/samples_framework/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\cmake\templates\VisualStudioUserFile.vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples_framework\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\src\SamplesFrameworkBase.cpp" />
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\src\SamplesFramework.cpp" />
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\src\CEGuiBaseApplication.cpp" />
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\src\CEGuiRendererSelector.cpp" />
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\src\Samples_xmlHandler.cpp" />
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\src\SampleData.cpp" />
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\src\MetaDataWindowManager.cpp" />
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\src\SamplesBrowserManager.cpp" />
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\src\Win32AppHelper.cpp" />
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\src\Win32CEGuiRendererSelector.cpp" />
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\src\CEGuiGLFWSharedBase.cpp" />
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\src\CEGuiGLFW2SharedBase.cpp" />
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\src\CEGuiOpenGLBaseApplication.cpp" />
+    <ClCompile Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\src\CEGuiOpenGL3BaseApplication.cpp" />
+    <ClInclude Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples\common\include\Sample.h" />
+    <ClInclude Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include\SamplesFrameworkBase.h" />
+    <ClInclude Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include\SamplesFramework.h" />
+    <ClInclude Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include\CEGuiBaseApplication.h" />
+    <ClInclude Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include\CEGuiRendererSelector.h" />
+    <ClInclude Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include\Samples_xmlHandler.h" />
+    <ClInclude Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include\SampleData.h" />
+    <ClInclude Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include\MetaDataWindowManager.h" />
+    <ClInclude Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\samples_framework\include\SamplesBrowserManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\ZERO_CHECK.vcxproj">
+      <Project>{BA5347AD-2AFF-3C16-A9BC-400AB2A1B0A5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\src\CEGUIBase-0.vcxproj">
+      <Project>{F6DE3BD1-31D7-3365-9696-80F707418010}</Project>
+      <Name>CEGUIBase-0</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\CommonDialogsDemo\CEGUICommonDialogsDemo.vcxproj">
+      <Project>{B407C6D4-38FF-33F6-BE01-092EF6519B4A}</Project>
+      <Name>CEGUICommonDialogsDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\src\WindowRendererSets\Core\CEGUICoreWindowRendererSet.vcxproj">
+      <Project>{886FF735-A809-3C1B-9D80-7E157FADB18F}</Project>
+      <Name>CEGUICoreWindowRendererSet</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\Demo6\CEGUIDemo6.vcxproj">
+      <Project>{27F9FC52-ABBA-3490-971A-34C765FE0DB9}</Project>
+      <Name>CEGUIDemo6</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\DragDropDemo\CEGUIDragDropDemo.vcxproj">
+      <Project>{8E35EF77-2F6E-3483-984F-D4521B2393C2}</Project>
+      <Name>CEGUIDragDropDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\EditboxValidationDemo\CEGUIEditboxValidationDemo.vcxproj">
+      <Project>{8FCA977F-9767-3779-9C58-DE483C355E64}</Project>
+      <Name>CEGUIEditboxValidationDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\EffectsDemo\CEGUIEffectsDemo.vcxproj">
+      <Project>{0F7ED01C-CB10-3E92-9B79-8D769EB5D995}</Project>
+      <Name>CEGUIEffectsDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\src\XMLParserModules\Expat\CEGUIExpatParser.vcxproj">
+      <Project>{5EEAE105-8580-30EF-AAF7-649ABA2035EB}</Project>
+      <Name>CEGUIExpatParser</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\FontDemo\CEGUIFontDemo.vcxproj">
+      <Project>{F3F148A8-D0B3-3498-8A8D-8A8D252D0FD5}</Project>
+      <Name>CEGUIFontDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\GameMenu\CEGUIGameMenuDemo.vcxproj">
+      <Project>{05EFD736-CBC8-3C7F-8A23-741F1739668B}</Project>
+      <Name>CEGUIGameMenuDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\HUDDemo\CEGUIHUDDemo.vcxproj">
+      <Project>{EFD24F38-D284-35A3-8BB5-DC2DE2C6A752}</Project>
+      <Name>CEGUIHUDDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\HelloWorld\CEGUIHelloWorldDemo.vcxproj">
+      <Project>{031EA011-7979-3048-8855-E6D4D4CE0BC3}</Project>
+      <Name>CEGUIHelloWorldDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\InventoryDemo\CEGUIInventoryDemo.vcxproj">
+      <Project>{5DD5458D-1EFA-3482-9224-FD18B6E23580}</Project>
+      <Name>CEGUIInventoryDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\LookNFeelOverview\CEGUILookNFeelOverviewDemo.vcxproj">
+      <Project>{3D49DE0E-D850-305E-8137-AB038102BC65}</Project>
+      <Name>CEGUILookNFeelOverviewDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\Minesweeper\CEGUIMinesweeper.vcxproj">
+      <Project>{762E2DBB-B8B7-392B-AD30-7017EF455DAA}</Project>
+      <Name>CEGUIMinesweeper</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\src\RendererModules\OpenGL\CEGUIOpenGLRenderer-0.vcxproj">
+      <Project>{48D60532-C31F-3EDB-8283-24237B17AFF1}</Project>
+      <Name>CEGUIOpenGLRenderer-0</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\cegui\src\ImageCodecModules\SILLY\CEGUISILLYImageCodec.vcxproj">
+      <Project>{6D28D2F7-C9C7-3728-916E-95CE941EADAE}</Project>
+      <Name>CEGUISILLYImageCodec</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\ScrollablePaneDemo\CEGUIScrollablePaneDemo.vcxproj">
+      <Project>{601D1AD8-5961-3676-9A5D-C9CCB5AB6831}</Project>
+      <Name>CEGUIScrollablePaneDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\TabControlDemo\CEGUITabControlDemo.vcxproj">
+      <Project>{218083E8-6922-3EA2-AE1B-7D35ED12B5B9}</Project>
+      <Name>CEGUITabControlDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\TextDemo\CEGUITextDemo.vcxproj">
+      <Project>{2B5396D0-0025-3BDA-8F5B-64AEAC381623}</Project>
+      <Name>CEGUITextDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\TreeDemo\CEGUITreeDemo.vcxproj">
+      <Project>{1B812010-A705-3797-AF28-2D501C2727F4}</Project>
+      <Name>CEGUITreeDemo</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Gabe\source\repos\CPPGameEngine\Libraries\cegui-0.8.7\cegui-0.8.7\build\samples\WidgetDemo\CEGUIWidgetDemo.vcxproj">
+      <Project>{675159F4-6199-39B0-8362-4FC7CA5B0CFE}</Project>
+      <Name>CEGUIWidgetDemo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<GUILayout version="4" >
+	<Window type="DefaultWindow" name="root" >
+    	    <Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+	    <Property name="AlwaysOnTop" value="True" />
+
+
+		<Window type="Vanilla/Label" name="FontSelectorLabel" >
+                	Property name="Area" value="{{0,0},{0,0},{1,0},{1,0}}" />
+                	Property name="Text" value="Font selector" />
+            	</Window>
+
+    		<Window type="Generic/Image" name="TopBar" >
+   		     <Property name="Area" value="{{0,0},{0,0},{1,0},{0,150}}" />
+   		     <Property name="Image" value="HUDDemo/Filler" />
+   		     <Property name="MaxSize" value="{{1,0},{1,0}}" />
+   		     <Property name="AlwaysOnTop" value="True" />
+    		     <Property name="ImageColours" value="tl:cd000000 tr:cd000000 bl:cd000000 br:cd000000" />
+    		</Window>
+
+		<Window type="Generic/Image" name="TopBorder" >
+   		     <Property name="Area" value="{{0,0},{0,150},{1,0},{0,151}}" />
+   		     <Property name="Image" value="HUDDemo/Filler" />
+   		     <Property name="MaxSize" value="{{1,0},{1,0}}" />
+   		     <Property name="AlwaysOnTop" value="True" />
+    		     <Property name="ImageColours" value="tl:ffffffff tr:ffffffff bl:ffffffff br:ffffffff" />
+    		</Window>
+
+
+   		 <Window type="Generic/Image" name="BottomBar" >
+        		<Property name="Area" value="{{0,0},{1,-150},{1,0},{1,0}}" />
+        		<Property name="Image" value="HUDDemo/Filler" />
+      		  	<Property name="MaxSize" value="{{1,0},{1,0}}" />
+      		  	<Property name="AlwaysOnTop" value="True" />
+   		     <Property name="ImageColours" value="tl:cd000000 tr:cd000000 bl:cd000000 br:cd000000" />
+  		  </Window>
+
+
+		<Window type="Generic/Image" name="MidBlur" >
+        		<Property name="Area" value="{{0,0},{0,150},{1,0},{1,-150}}" />
+        		<Property name="Image" value="HUDDemo/Filler" />
+      		  	<Property name="MaxSize" value="{{1,0},{1,0}}" />
+      		  	<Property name="AlwaysOnTop" value="True" />
+   		     <Property name="ImageColours" value="tl:6f020202 tr:6f020202 bl:6f020202 br:6f020202" />
+  		  </Window>
+
+	</Window>
+</GUILayout>
